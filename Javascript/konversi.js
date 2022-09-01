@@ -8,5 +8,5 @@ document.writeln(`<p>${isNaN(NaN)}</p>`);
 document.writeln(`<p>${isNaN("salah")}</p>`);
 document.writeln(`<p>${isNaN("9")}</p>`);
 document.writeln(`<p>${isNaN("9salah")}</p>`);
-
+document.writeln("awd");
 //konversi
