@@ -4,7 +4,7 @@ function createAdder(value){
         console.info(owner);
         return value + param;
     }
-    return add; // ini penting return add bukan add()
+    return add; // ini penting return add bukan add() seperti mengubah jadi value
 }
 
 const addTwo = createAdder(2);
