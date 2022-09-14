@@ -17,3 +17,5 @@ const sum = (value1, value2) => value1 + value2;
 
 document.writeln(`<p>${sum(10,10)}</p>`);
 
+
+
