@@ -81,8 +81,10 @@ const person = {
         middlename: "Rifki"
     }
 
-    let {firstname, middlename, lastname = "NamaBelakang"} = person;
-    console.info(firstname);
+    let {firstname : namaDepan, //custom variable
+        middlename,
+        lastname = "NamaBelakang"} = person;
+    console.info(namaDepan);
     console.info(middlename);
     console.info(lastname);
 }
