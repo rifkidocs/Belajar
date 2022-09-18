@@ -33,6 +33,8 @@ Partial Class Form1
         Me.txtLastName = New System.Windows.Forms.TextBox()
         Me.txtGender = New System.Windows.Forms.TextBox()
         Me.btnSubmit = New System.Windows.Forms.Button()
+        Me.lstOccupation = New System.Windows.Forms.ListBox()
+        Me.LabelOccupation = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'BtnStart
@@ -137,6 +139,24 @@ Partial Class Form1
         Me.btnSubmit.Text = "Submit"
         Me.btnSubmit.UseVisualStyleBackColor = True
         '
+        'lstOccupation
+        '
+        Me.lstOccupation.FormattingEnabled = True
+        Me.lstOccupation.Items.AddRange(New Object() {"Programmer", "Doctor", "Student", "Teacher", "Tailor", "Soldier", "Sailor", "Laborer"})
+        Me.lstOccupation.Location = New System.Drawing.Point(560, 126)
+        Me.lstOccupation.Name = "lstOccupation"
+        Me.lstOccupation.Size = New System.Drawing.Size(133, 147)
+        Me.lstOccupation.TabIndex = 12
+        '
+        'LabelOccupation
+        '
+        Me.LabelOccupation.AutoSize = True
+        Me.LabelOccupation.Location = New System.Drawing.Point(588, 110)
+        Me.LabelOccupation.Name = "LabelOccupation"
+        Me.LabelOccupation.Size = New System.Drawing.Size(62, 13)
+        Me.LabelOccupation.TabIndex = 13
+        Me.LabelOccupation.Text = "Occupation"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -144,6 +164,8 @@ Partial Class Form1
         Me.AutoSize = True
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.ClientSize = New System.Drawing.Size(861, 596)
+        Me.Controls.Add(Me.LabelOccupation)
+        Me.Controls.Add(Me.lstOccupation)
         Me.Controls.Add(Me.btnSubmit)
         Me.Controls.Add(Me.txtGender)
         Me.Controls.Add(Me.txtLastName)
@@ -172,4 +194,6 @@ Partial Class Form1
     Friend WithEvents txtLastName As TextBox
     Friend WithEvents txtGender As TextBox
     Friend WithEvents btnSubmit As Button
+    Friend WithEvents lstOccupation As ListBox
+    Friend WithEvents LabelOccupation As Label
 End Class
