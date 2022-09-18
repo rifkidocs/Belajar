@@ -41,7 +41,7 @@ Partial Class Form1
         '
         'Btn2
         '
-        Me.Btn2.BackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.Btn2.BackColor = System.Drawing.Color.DarkCyan
         Me.Btn2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Btn2.Location = New System.Drawing.Point(142, 194)
         Me.Btn2.Name = "Btn2"
@@ -52,7 +52,7 @@ Partial Class Form1
         '
         'Btn3
         '
-        Me.Btn3.BackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.Btn3.BackColor = System.Drawing.Color.DarkTurquoise
         Me.Btn3.ForeColor = System.Drawing.SystemColors.ButtonHighlight
         Me.Btn3.Location = New System.Drawing.Point(142, 274)
         Me.Btn3.Name = "Btn3"
@@ -67,7 +67,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.ClientSize = New System.Drawing.Size(435, 450)
+        Me.ClientSize = New System.Drawing.Size(435, 445)
         Me.Controls.Add(Me.Btn3)
         Me.Controls.Add(Me.Btn2)
         Me.Controls.Add(Me.BtnStart)
