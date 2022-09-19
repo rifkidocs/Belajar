@@ -74,4 +74,9 @@
         lstOccupation.Items.Add("Actor")
         lstOccupation.Items.Add("Singer")
     End Sub
+
+    Private Sub BtnNextForm2_Click(sender As Object, e As EventArgs) Handles BtnNextForm2.Click
+        Form2.Show()
+        Me.Hide()
+    End Sub
 End Class
