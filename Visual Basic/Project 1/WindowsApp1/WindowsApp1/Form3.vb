@@ -18,7 +18,25 @@
         MsgBox("You entered " & stCountry)
     End Sub
 
-    Private Sub Form3_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.AcceptButton = btnGreetings
+    Private Sub btnCheckScore_Click(sender As Object, e As EventArgs) Handles btnCheckScore.Click
+        Dim iScore As Integer
+
+        If IsNumeric(txtScore.Text) = True Then
+            iScore = txtScore.Text
+        Else
+            MsgBox("You must enter a number")
+            Exit Sub
+        End If
+
+        If iScore < 0 Or iScore > 100 Then
+            MsgBox("That is not valid score. Enter a number between 0 - 100")
+        ElseIf iScore >= 50 Then
+            MsgBox("Pass")
+            MsgBox("Congrats")
+        ElseIf iScore < 50 Then
+            MsgBox("Fail")
+            MsgBox("Sorry, please try again")
+        End If
+
     End Sub
 End Class
