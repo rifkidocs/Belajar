@@ -11,3 +11,4 @@ F:\1.Kuliah\Belajar\Visual Basic\Project 1\WindowsApp1\WindowsApp1\obj\Debug\Win
 F:\1.Kuliah\Belajar\Visual Basic\Project 1\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.xml
 F:\1.Kuliah\Belajar\Visual Basic\Project 1\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.pdb
 F:\1.Kuliah\Belajar\Visual Basic\Project 1\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Form2.resources
+F:\1.Kuliah\Belajar\Visual Basic\Project 1\WindowsApp1\WindowsApp1\obj\Debug\WindowsApp1.Form3.resources

@@ -27,6 +27,7 @@ Partial Class Form2
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.btnResult = New System.Windows.Forms.Button()
+        Me.BtnNextForm3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'txtNumber1
@@ -70,11 +71,21 @@ Partial Class Form2
         Me.btnResult.Text = "Calculate"
         Me.btnResult.UseVisualStyleBackColor = True
         '
+        'BtnNextForm3
+        '
+        Me.BtnNextForm3.Location = New System.Drawing.Point(632, 375)
+        Me.BtnNextForm3.Name = "BtnNextForm3"
+        Me.BtnNextForm3.Size = New System.Drawing.Size(113, 43)
+        Me.BtnNextForm3.TabIndex = 15
+        Me.BtnNextForm3.Text = "Next"
+        Me.BtnNextForm3.UseVisualStyleBackColor = True
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.BtnNextForm3)
         Me.Controls.Add(Me.btnResult)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
@@ -92,4 +103,5 @@ Partial Class Form2
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents btnResult As Button
+    Friend WithEvents BtnNextForm3 As Button
 End Class
