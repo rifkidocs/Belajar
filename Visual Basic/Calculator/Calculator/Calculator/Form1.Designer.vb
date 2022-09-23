@@ -43,7 +43,7 @@ Partial Class Form1
         Me.btnDot = New System.Windows.Forms.Button()
         Me.btnEqual = New System.Windows.Forms.Button()
         Me.btnDivide = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtHistory = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'txtDisplay
@@ -270,19 +270,19 @@ Partial Class Form1
         Me.btnDivide.Text = "/"
         Me.btnDivide.UseVisualStyleBackColor = False
         '
-        'TextBox1
+        'txtHistory
         '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox1.Cursor = System.Windows.Forms.Cursors.Default
-        Me.TextBox1.Font = New System.Drawing.Font("Teknik", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(16, 12)
-        Me.TextBox1.Multiline = True
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(370, 26)
-        Me.TextBox1.TabIndex = 0
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        Me.txtHistory.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.txtHistory.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.txtHistory.Cursor = System.Windows.Forms.Cursors.Default
+        Me.txtHistory.Font = New System.Drawing.Font("Teknik", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtHistory.Location = New System.Drawing.Point(16, 12)
+        Me.txtHistory.Multiline = True
+        Me.txtHistory.Name = "txtHistory"
+        Me.txtHistory.ReadOnly = True
+        Me.txtHistory.Size = New System.Drawing.Size(370, 26)
+        Me.txtHistory.TabIndex = 0
+        Me.txtHistory.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'Form1
         '
@@ -311,10 +311,10 @@ Partial Class Form1
         Me.Controls.Add(Me.btnCE)
         Me.Controls.Add(Me.btnBS)
         Me.Controls.Add(Me.txtDisplay)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtHistory)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Calculator"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -340,5 +340,5 @@ Partial Class Form1
     Friend WithEvents btnEqual As Button
     Friend WithEvents btnDivide As Button
     Private WithEvents txtDisplay As TextBox
-    Private WithEvents TextBox1 As TextBox
+    Private WithEvents txtHistory As TextBox
 End Class

@@ -9,20 +9,25 @@
         If op = "+" Then
             ans = num1 + num2
             txtDisplay.Text = Convert.ToString(ans)
+            txtHistory.Text = (num1 & " + " & num2 & " = ")
         ElseIf op = "-" Then
             ans = num1 - num2
             txtDisplay.Text = Convert.ToString(ans)
+            txtHistory.Text = (num1 & " - " & num2 & " = ")
         ElseIf op = "/" Then
             ans = num1 / num2
             txtDisplay.Text = Convert.ToString(ans)
+            txtHistory.Text = (num1 & " / " & num2 & " = ")
         ElseIf op = "*" Then
             ans = num1 * num2
             txtDisplay.Text = Convert.ToString(ans)
+            txtHistory.Text = (num1 & " * " & num2 & " = ")
         End If
     End Sub
 
     Private Sub btnCE_Click(sender As Object, e As EventArgs) Handles btnCE.Click
         Dim fn, sn As String
+        txtHistory.Clear()
         txtDisplay.Text = "0"
 
         fn = Convert.ToString(num1)
@@ -53,7 +58,7 @@
 
     End Sub
 
-    Private Sub txtDisplay_GotFocus(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtDisplay.GotFocus, TextBox1.GotFocus
+    Private Sub txtDisplay_GotFocus(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtDisplay.GotFocus, txtHistory.GotFocus
 
         txtDisplay.Select(txtDisplay.Text.Length, 0)
         HideCaret(txtDisplay.Handle)
