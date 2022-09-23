@@ -43,6 +43,7 @@ Partial Class Form1
         Me.btnDot = New System.Windows.Forms.Button()
         Me.btnEqual = New System.Windows.Forms.Button()
         Me.btnDivide = New System.Windows.Forms.Button()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'txtDisplay
@@ -51,11 +52,11 @@ Partial Class Form1
         Me.txtDisplay.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtDisplay.Cursor = System.Windows.Forms.Cursors.Default
         Me.txtDisplay.Font = New System.Drawing.Font("Teknik", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtDisplay.Location = New System.Drawing.Point(16, 16)
+        Me.txtDisplay.Location = New System.Drawing.Point(16, 37)
         Me.txtDisplay.Multiline = True
         Me.txtDisplay.Name = "txtDisplay"
         Me.txtDisplay.ReadOnly = True
-        Me.txtDisplay.Size = New System.Drawing.Size(368, 98)
+        Me.txtDisplay.Size = New System.Drawing.Size(370, 48)
         Me.txtDisplay.TabIndex = 0
         Me.txtDisplay.Text = "0"
         Me.txtDisplay.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -64,7 +65,7 @@ Partial Class Form1
         '
         Me.btnBS.BackColor = System.Drawing.Color.LightBlue
         Me.btnBS.Font = New System.Drawing.Font("Wingdings", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(2, Byte))
-        Me.btnBS.Location = New System.Drawing.Point(14, 120)
+        Me.btnBS.Location = New System.Drawing.Point(16, 100)
         Me.btnBS.Name = "btnBS"
         Me.btnBS.Size = New System.Drawing.Size(88, 69)
         Me.btnBS.TabIndex = 1
@@ -75,7 +76,7 @@ Partial Class Form1
         '
         Me.btnCE.BackColor = System.Drawing.Color.LightBlue
         Me.btnCE.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCE.Location = New System.Drawing.Point(108, 120)
+        Me.btnCE.Location = New System.Drawing.Point(110, 100)
         Me.btnCE.Name = "btnCE"
         Me.btnCE.Size = New System.Drawing.Size(88, 69)
         Me.btnCE.TabIndex = 1
@@ -86,7 +87,7 @@ Partial Class Form1
         '
         Me.btnC.BackColor = System.Drawing.Color.LightBlue
         Me.btnC.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnC.Location = New System.Drawing.Point(202, 120)
+        Me.btnC.Location = New System.Drawing.Point(204, 100)
         Me.btnC.Name = "btnC"
         Me.btnC.Size = New System.Drawing.Size(88, 69)
         Me.btnC.TabIndex = 1
@@ -97,7 +98,7 @@ Partial Class Form1
         '
         Me.btnPM.BackColor = System.Drawing.Color.LightBlue
         Me.btnPM.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnPM.Location = New System.Drawing.Point(296, 120)
+        Me.btnPM.Location = New System.Drawing.Point(298, 100)
         Me.btnPM.Name = "btnPM"
         Me.btnPM.Size = New System.Drawing.Size(88, 69)
         Me.btnPM.TabIndex = 1
@@ -107,7 +108,7 @@ Partial Class Form1
         'btn9
         '
         Me.btn9.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn9.Location = New System.Drawing.Point(14, 195)
+        Me.btn9.Location = New System.Drawing.Point(16, 175)
         Me.btn9.Name = "btn9"
         Me.btn9.Size = New System.Drawing.Size(88, 69)
         Me.btn9.TabIndex = 1
@@ -117,7 +118,7 @@ Partial Class Form1
         'btn8
         '
         Me.btn8.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn8.Location = New System.Drawing.Point(108, 195)
+        Me.btn8.Location = New System.Drawing.Point(110, 175)
         Me.btn8.Name = "btn8"
         Me.btn8.Size = New System.Drawing.Size(88, 69)
         Me.btn8.TabIndex = 1
@@ -127,7 +128,7 @@ Partial Class Form1
         'btn7
         '
         Me.btn7.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn7.Location = New System.Drawing.Point(202, 195)
+        Me.btn7.Location = New System.Drawing.Point(204, 175)
         Me.btn7.Name = "btn7"
         Me.btn7.Size = New System.Drawing.Size(88, 69)
         Me.btn7.TabIndex = 1
@@ -138,7 +139,7 @@ Partial Class Form1
         '
         Me.btnPlus.BackColor = System.Drawing.Color.LightBlue
         Me.btnPlus.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnPlus.Location = New System.Drawing.Point(296, 195)
+        Me.btnPlus.Location = New System.Drawing.Point(298, 175)
         Me.btnPlus.Name = "btnPlus"
         Me.btnPlus.Size = New System.Drawing.Size(88, 69)
         Me.btnPlus.TabIndex = 1
@@ -148,7 +149,7 @@ Partial Class Form1
         'btn6
         '
         Me.btn6.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn6.Location = New System.Drawing.Point(14, 270)
+        Me.btn6.Location = New System.Drawing.Point(16, 250)
         Me.btn6.Name = "btn6"
         Me.btn6.Size = New System.Drawing.Size(88, 69)
         Me.btn6.TabIndex = 1
@@ -158,7 +159,7 @@ Partial Class Form1
         'btn5
         '
         Me.btn5.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn5.Location = New System.Drawing.Point(108, 270)
+        Me.btn5.Location = New System.Drawing.Point(110, 250)
         Me.btn5.Name = "btn5"
         Me.btn5.Size = New System.Drawing.Size(88, 69)
         Me.btn5.TabIndex = 1
@@ -168,7 +169,7 @@ Partial Class Form1
         'btn4
         '
         Me.btn4.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn4.Location = New System.Drawing.Point(202, 270)
+        Me.btn4.Location = New System.Drawing.Point(204, 250)
         Me.btn4.Name = "btn4"
         Me.btn4.Size = New System.Drawing.Size(88, 69)
         Me.btn4.TabIndex = 1
@@ -179,7 +180,7 @@ Partial Class Form1
         '
         Me.bntMinus.BackColor = System.Drawing.Color.LightBlue
         Me.bntMinus.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.bntMinus.Location = New System.Drawing.Point(296, 270)
+        Me.bntMinus.Location = New System.Drawing.Point(298, 250)
         Me.bntMinus.Name = "bntMinus"
         Me.bntMinus.Size = New System.Drawing.Size(88, 69)
         Me.bntMinus.TabIndex = 1
@@ -189,7 +190,7 @@ Partial Class Form1
         'btn1
         '
         Me.btn1.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn1.Location = New System.Drawing.Point(14, 345)
+        Me.btn1.Location = New System.Drawing.Point(16, 325)
         Me.btn1.Name = "btn1"
         Me.btn1.Size = New System.Drawing.Size(88, 69)
         Me.btn1.TabIndex = 1
@@ -199,7 +200,7 @@ Partial Class Form1
         'btn2
         '
         Me.btn2.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn2.Location = New System.Drawing.Point(108, 345)
+        Me.btn2.Location = New System.Drawing.Point(110, 325)
         Me.btn2.Name = "btn2"
         Me.btn2.Size = New System.Drawing.Size(88, 69)
         Me.btn2.TabIndex = 1
@@ -209,7 +210,7 @@ Partial Class Form1
         'btn3
         '
         Me.btn3.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn3.Location = New System.Drawing.Point(202, 345)
+        Me.btn3.Location = New System.Drawing.Point(204, 325)
         Me.btn3.Name = "btn3"
         Me.btn3.Size = New System.Drawing.Size(88, 69)
         Me.btn3.TabIndex = 1
@@ -220,7 +221,7 @@ Partial Class Form1
         '
         Me.btnMulti.BackColor = System.Drawing.Color.LightBlue
         Me.btnMulti.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnMulti.Location = New System.Drawing.Point(296, 345)
+        Me.btnMulti.Location = New System.Drawing.Point(298, 325)
         Me.btnMulti.Name = "btnMulti"
         Me.btnMulti.Size = New System.Drawing.Size(88, 69)
         Me.btnMulti.TabIndex = 1
@@ -230,7 +231,7 @@ Partial Class Form1
         'btn0
         '
         Me.btn0.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn0.Location = New System.Drawing.Point(14, 420)
+        Me.btn0.Location = New System.Drawing.Point(16, 400)
         Me.btn0.Name = "btn0"
         Me.btn0.Size = New System.Drawing.Size(88, 69)
         Me.btn0.TabIndex = 1
@@ -240,7 +241,7 @@ Partial Class Form1
         'btnDot
         '
         Me.btnDot.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDot.Location = New System.Drawing.Point(108, 420)
+        Me.btnDot.Location = New System.Drawing.Point(110, 400)
         Me.btnDot.Name = "btnDot"
         Me.btnDot.Size = New System.Drawing.Size(88, 69)
         Me.btnDot.TabIndex = 1
@@ -251,7 +252,7 @@ Partial Class Form1
         '
         Me.btnEqual.BackColor = System.Drawing.SystemColors.ControlLight
         Me.btnEqual.Font = New System.Drawing.Font("LEMON MILK", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnEqual.Location = New System.Drawing.Point(202, 420)
+        Me.btnEqual.Location = New System.Drawing.Point(204, 400)
         Me.btnEqual.Name = "btnEqual"
         Me.btnEqual.Size = New System.Drawing.Size(88, 69)
         Me.btnEqual.TabIndex = 1
@@ -262,18 +263,33 @@ Partial Class Form1
         '
         Me.btnDivide.BackColor = System.Drawing.Color.LightBlue
         Me.btnDivide.Font = New System.Drawing.Font("Teknik", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDivide.Location = New System.Drawing.Point(296, 420)
+        Me.btnDivide.Location = New System.Drawing.Point(298, 400)
         Me.btnDivide.Name = "btnDivide"
         Me.btnDivide.Size = New System.Drawing.Size(88, 69)
         Me.btnDivide.TabIndex = 1
         Me.btnDivide.Text = "/"
         Me.btnDivide.UseVisualStyleBackColor = False
         '
+        'TextBox1
+        '
+        Me.TextBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox1.Cursor = System.Windows.Forms.Cursors.Default
+        Me.TextBox1.Font = New System.Drawing.Font("Teknik", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(16, 12)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.ReadOnly = True
+        Me.TextBox1.Size = New System.Drawing.Size(370, 26)
+        Me.TextBox1.TabIndex = 0
+        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(402, 498)
+        Me.BackColor = System.Drawing.SystemColors.Control
+        Me.ClientSize = New System.Drawing.Size(402, 487)
         Me.Controls.Add(Me.btnDivide)
         Me.Controls.Add(Me.btnEqual)
         Me.Controls.Add(Me.btnMulti)
@@ -295,6 +311,8 @@ Partial Class Form1
         Me.Controls.Add(Me.btnCE)
         Me.Controls.Add(Me.btnBS)
         Me.Controls.Add(Me.txtDisplay)
+        Me.Controls.Add(Me.TextBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
@@ -322,4 +340,5 @@ Partial Class Form1
     Friend WithEvents btnEqual As Button
     Friend WithEvents btnDivide As Button
     Private WithEvents txtDisplay As TextBox
+    Private WithEvents TextBox1 As TextBox
 End Class

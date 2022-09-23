@@ -53,7 +53,7 @@
 
     End Sub
 
-    Private Sub txtDisplay_GotFocus(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtDisplay.GotFocus
+    Private Sub txtDisplay_GotFocus(ByVal sender As Object, ByVal e As System.EventArgs) Handles txtDisplay.GotFocus, TextBox1.GotFocus
 
         txtDisplay.Select(txtDisplay.Text.Length, 0)
         HideCaret(txtDisplay.Handle)
