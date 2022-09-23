@@ -1,0 +1,12 @@
+F:\1.Kuliah\Belajar\Visual Basic\Calculator\Calculator\Calculator\obj\Debug\Calculator.vbproj.AssemblyReference.cache
+F:\1.Kuliah\Belajar\Visual Basic\Calculator\Calculator\Calculator\obj\Debug\Calculator.Form1.resources
+F:\1.Kuliah\Belajar\Visual Basic\Calculator\Calculator\Calculator\obj\Debug\Calculator.Resources.resources
+F:\1.Kuliah\Belajar\Visual Basic\Calculator\Calculator\Calculator\obj\Debug\Calculator.vbproj.GenerateResource.cache
+F:\1.Kuliah\Belajar\Visual Basic\Calculator\Calculator\Calculator\obj\Debug\Calculator.vbproj.CoreCompileInputs.cache
+F:\1.Kuliah\Belajar\Visual Basic\Calculator\Calculator\Calculator\bin\Debug\Calculator.exe.config
+F:\1.Kuliah\Belajar\Visual Basic\Calculator\Calculator\Calculator\bin\Debug\Calculator.exe
+F:\1.Kuliah\Belajar\Visual Basic\Calculator\Calculator\Calculator\bin\Debug\Calculator.pdb
+F:\1.Kuliah\Belajar\Visual Basic\Calculator\Calculator\Calculator\bin\Debug\Calculator.xml
+F:\1.Kuliah\Belajar\Visual Basic\Calculator\Calculator\Calculator\obj\Debug\Calculator.exe
+F:\1.Kuliah\Belajar\Visual Basic\Calculator\Calculator\Calculator\obj\Debug\Calculator.xml
+F:\1.Kuliah\Belajar\Visual Basic\Calculator\Calculator\Calculator\obj\Debug\Calculator.pdb
