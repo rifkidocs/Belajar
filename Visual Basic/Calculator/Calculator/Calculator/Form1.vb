@@ -4,25 +4,34 @@
     Dim op As String
 
     Private Sub btnEqual_Click(sender As Object, e As EventArgs) Handles btnEqual.Click
-        num2 = Convert.ToDouble(txtDisplay.Text)
+        Try
+            num2 = Convert.ToDouble(txtDisplay.Text)
 
-        If op = "+" Then
-            ans = num1 + num2
+            If op = "+" Then
+                ans = num1 + num2
+                txtDisplay.Text = Convert.ToString(ans)
+                txtHistory.Text = (num1 & " + " & num2 & " = ")
+                op = ""
+            ElseIf op = "-" Then
+                ans = num1 - num2
+                txtDisplay.Text = Convert.ToString(ans)
+                txtHistory.Text = (num1 & " - " & num2 & " = ")
+                op = ""
+            ElseIf op = "/" Then
+                ans = num1 / num2
+                txtDisplay.Text = Convert.ToString(ans)
+                txtHistory.Text = (num1 & " / " & num2 & " = ")
+                op = ""
+            ElseIf op = "*" Then
+                ans = num1 * num2
+                txtDisplay.Text = Convert.ToString(ans)
+                txtHistory.Text = (num1 & " * " & num2 & " = ")
+                op = ""
+            End If
+        Catch ex As Exception
             txtDisplay.Text = Convert.ToString(ans)
-            txtHistory.Text = (num1 & " + " & num2 & " = ")
-        ElseIf op = "-" Then
-            ans = num1 - num2
-            txtDisplay.Text = Convert.ToString(ans)
-            txtHistory.Text = (num1 & " - " & num2 & " = ")
-        ElseIf op = "/" Then
-            ans = num1 / num2
-            txtDisplay.Text = Convert.ToString(ans)
-            txtHistory.Text = (num1 & " / " & num2 & " = ")
-        ElseIf op = "*" Then
-            ans = num1 * num2
-            txtDisplay.Text = Convert.ToString(ans)
-            txtHistory.Text = (num1 & " * " & num2 & " = ")
-        End If
+        End Try
+
     End Sub
 
     Private Sub btnCE_Click(sender As Object, e As EventArgs) Handles btnCE.Click
@@ -86,11 +95,41 @@
     End Sub
 
     Private Sub ClickOperator(sender As Object, e As EventArgs) Handles btnPlus.Click, btnMulti.Click, btnDivide.Click, bntMinus.Click
-        Dim b As Button = sender
+        Try
+            If op = "+" Then
+                num2 = Convert.ToDouble(txtDisplay.Text)
+                ans = num1 + num2
+                txtDisplay.Text = Convert.ToString(ans)
+                txtHistory.Text = (num1 & " + " & num2 & " = " & ans)
 
-        num1 = Convert.ToDouble(txtDisplay.Text)
-        op = b.Text
-        txtDisplay.Text = ""
+            ElseIf op = "-" Then
+                num2 = Convert.ToDouble(txtDisplay.Text)
+                ans = num1 - num2
+                txtDisplay.Text = Convert.ToString(ans)
+                txtHistory.Text = (num1 & " - " & num2 & " = " & ans)
+
+            ElseIf op = "/" Then
+                num2 = Convert.ToDouble(txtDisplay.Text)
+                ans = num1 / num2
+                txtDisplay.Text = Convert.ToString(ans)
+                txtHistory.Text = (num1 & " / " & num2 & " = " & ans)
+
+            ElseIf op = "*" Then
+                num2 = Convert.ToDouble(txtDisplay.Text)
+                ans = num1 * num2
+                txtDisplay.Text = Convert.ToString(ans)
+                txtHistory.Text = (num1 & " * " & num2 & " = " & ans)
+            End If
+
+            Dim b As Button = sender
+            num1 = Convert.ToDouble(txtDisplay.Text)
+
+            op = b.Text
+            txtDisplay.Text = ""
+        Catch ex As Exception
+            MsgBox("Operator sudah di tetapkan")
+        End Try
+
     End Sub
 
 
