@@ -1,0 +1,13 @@
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas1\Tugas Pemograman Visual 1\Tugas Pemograman Visual 1\bin\Debug\Tugas Pemograman Visual 1.exe.config
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas1\Tugas Pemograman Visual 1\Tugas Pemograman Visual 1\bin\Debug\Tugas Pemograman Visual 1.exe
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas1\Tugas Pemograman Visual 1\Tugas Pemograman Visual 1\bin\Debug\Tugas Pemograman Visual 1.pdb
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas1\Tugas Pemograman Visual 1\Tugas Pemograman Visual 1\bin\Debug\Tugas Pemograman Visual 1.xml
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas1\Tugas Pemograman Visual 1\Tugas Pemograman Visual 1\obj\Debug\Tugas Pemograman Visual 1.vbproj.AssemblyReference.cache
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas1\Tugas Pemograman Visual 1\Tugas Pemograman Visual 1\obj\Debug\Tugas_Pemograman_Visual_1.Form1.resources
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas1\Tugas Pemograman Visual 1\Tugas Pemograman Visual 1\obj\Debug\Tugas_Pemograman_Visual_1.Resources.resources
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas1\Tugas Pemograman Visual 1\Tugas Pemograman Visual 1\obj\Debug\Tugas Pemograman Visual 1.vbproj.GenerateResource.cache
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas1\Tugas Pemograman Visual 1\Tugas Pemograman Visual 1\obj\Debug\Tugas Pemograman Visual 1.vbproj.CoreCompileInputs.cache
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas1\Tugas Pemograman Visual 1\Tugas Pemograman Visual 1\obj\Debug\Tugas Pemograman Visual 1.exe
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas1\Tugas Pemograman Visual 1\Tugas Pemograman Visual 1\obj\Debug\Tugas Pemograman Visual 1.xml
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas1\Tugas Pemograman Visual 1\Tugas Pemograman Visual 1\obj\Debug\Tugas Pemograman Visual 1.pdb
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas1\Tugas Pemograman Visual 1\Tugas Pemograman Visual 1\obj\Debug\Tugas_Pemograman_Visual_1.Form2.resources

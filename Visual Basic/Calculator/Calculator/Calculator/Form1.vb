@@ -123,7 +123,6 @@
 
             Dim b As Button = sender
             num1 = Convert.ToDouble(txtDisplay.Text)
-
             op = b.Text
             txtDisplay.Text = ""
         Catch ex As Exception
