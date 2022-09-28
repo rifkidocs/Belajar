@@ -74,8 +74,12 @@
 
     End Sub
 
-    Private Sub txtDisplay_TextChanged(sender As Object, e As EventArgs) 
+    Private Sub txtDisplay_TextChanged(sender As Object, e As EventArgs)
 
+    End Sub
+
+    Private Sub AboutUsToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles AboutUsToolStripMenuItem.Click
+        MsgBox("MUHAMMAD RIFKI ARDIANSAH (112110102)" & vbCrLf & "RISKA DWI ELIDA Y. R. (112110106)" & vbCrLf & "DANY ILHAM SAPUTRA(112110046)")
     End Sub
 
     Private Sub NumberClick(sender As Object, e As EventArgs) Handles btnDot.Click, btn9.Click, btn8.Click, btn7.Click, btn6.Click, btn5.Click, btn4.Click, btn3.Click, btn2.Click, btn1.Click, btn0.Click
