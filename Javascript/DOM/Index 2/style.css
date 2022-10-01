@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: wheat;
+}
+
+.container{
+    text-align: center;
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.boxes {
+    border-style: solid;
+    padding: 7%;
+    margin: 2%;
+}
+
+#main-heading{
+    text-align: center;
+}
+
+#heading{
+    color: aliceblue;
+}
+
+button{
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+}
