@@ -29,7 +29,7 @@ Partial Class Form2
         'labelNama
         '
         Me.labelNama.AutoSize = True
-        Me.labelNama.Location = New System.Drawing.Point(223, 154)
+        Me.labelNama.Location = New System.Drawing.Point(69, 68)
         Me.labelNama.Name = "labelNama"
         Me.labelNama.Size = New System.Drawing.Size(39, 13)
         Me.labelNama.TabIndex = 0
@@ -38,7 +38,7 @@ Partial Class Form2
         'LabelNIM
         '
         Me.LabelNIM.AutoSize = True
-        Me.LabelNIM.Location = New System.Drawing.Point(223, 215)
+        Me.LabelNIM.Location = New System.Drawing.Point(69, 129)
         Me.LabelNIM.Name = "LabelNIM"
         Me.LabelNIM.Size = New System.Drawing.Size(39, 13)
         Me.LabelNIM.TabIndex = 1
@@ -48,7 +48,7 @@ Partial Class Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(273, 217)
         Me.Controls.Add(Me.LabelNIM)
         Me.Controls.Add(Me.labelNama)
         Me.Name = "Form2"

@@ -22,7 +22,12 @@ Tugas Pemograman Visual 1
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
-<member name="P:Tugas_Pemograman_Visual_1.My.Resources.Resources.Heripoter">
+<member name="P:Tugas_Pemograman_Visual_1.My.Resources.Resources.photo_2022_10_02_22_47_10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Tugas_Pemograman_Visual_1.My.Resources.Resources.WhatsApp_Image_2022_10_02_at_10_36_00_PM">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
