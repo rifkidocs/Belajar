@@ -1,4 +1,4 @@
-﻿Public Class Tugas1_Form1
+﻿Public Class Tugas1_f1
     Private Sub Tugas1_Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Image1.Visible = False
     End Sub

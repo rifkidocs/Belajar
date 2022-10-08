@@ -4,13 +4,10 @@ F:\1.Kuliah\Belajar\Visual Basic\Muhammad Rifki Ardiansah\MuhammadRifkiArdiansah
 F:\1.Kuliah\Belajar\Visual Basic\Muhammad Rifki Ardiansah\MuhammadRifkiArdiansah\MuhammadRifkiArdiansah\bin\Debug\MuhammadRifkiArdiansah.xml
 F:\1.Kuliah\Belajar\Visual Basic\Muhammad Rifki Ardiansah\MuhammadRifkiArdiansah\MuhammadRifkiArdiansah\obj\Debug\MuhammadRifkiArdiansah.vbproj.AssemblyReference.cache
 F:\1.Kuliah\Belajar\Visual Basic\Muhammad Rifki Ardiansah\MuhammadRifkiArdiansah\MuhammadRifkiArdiansah\obj\Debug\MuhammadRifkiArdiansah.Resources.resources
-F:\1.Kuliah\Belajar\Visual Basic\Muhammad Rifki Ardiansah\MuhammadRifkiArdiansah\MuhammadRifkiArdiansah\obj\Debug\MuhammadRifkiArdiansah.Tugas1_Form1.resources
 F:\1.Kuliah\Belajar\Visual Basic\Muhammad Rifki Ardiansah\MuhammadRifkiArdiansah\MuhammadRifkiArdiansah\obj\Debug\MuhammadRifkiArdiansah.vbproj.GenerateResource.cache
 F:\1.Kuliah\Belajar\Visual Basic\Muhammad Rifki Ardiansah\MuhammadRifkiArdiansah\MuhammadRifkiArdiansah\obj\Debug\MuhammadRifkiArdiansah.vbproj.CoreCompileInputs.cache
 F:\1.Kuliah\Belajar\Visual Basic\Muhammad Rifki Ardiansah\MuhammadRifkiArdiansah\MuhammadRifkiArdiansah\obj\Debug\MuhammadRifkiArdiansah.exe
 F:\1.Kuliah\Belajar\Visual Basic\Muhammad Rifki Ardiansah\MuhammadRifkiArdiansah\MuhammadRifkiArdiansah\obj\Debug\MuhammadRifkiArdiansah.xml
 F:\1.Kuliah\Belajar\Visual Basic\Muhammad Rifki Ardiansah\MuhammadRifkiArdiansah\MuhammadRifkiArdiansah\obj\Debug\MuhammadRifkiArdiansah.pdb
-F:\1.Kuliah\Belajar\Visual Basic\Muhammad Rifki Ardiansah\MuhammadRifkiArdiansah\MuhammadRifkiArdiansah\obj\Debug\MuhammadRifkiArdiansah.Tugas1_Form2.resources
 F:\1.Kuliah\Belajar\Visual Basic\Muhammad Rifki Ardiansah\MuhammadRifkiArdiansah\MuhammadRifkiArdiansah\obj\Debug\MuhammadRifkiArdiansah.FormUtama.resources
 F:\1.Kuliah\Belajar\Visual Basic\Muhammad Rifki Ardiansah\MuhammadRifkiArdiansah\MuhammadRifkiArdiansah\obj\Debug\MuhammadRifkiArdiansah.Tugas2_1_Form1.resources
-F:\1.Kuliah\Belajar\Visual Basic\Muhammad Rifki Ardiansah\MuhammadRifkiArdiansah\MuhammadRifkiArdiansah\obj\Debug\MuhammadRifkiArdiansah.Tugas2_2_Form1.resources

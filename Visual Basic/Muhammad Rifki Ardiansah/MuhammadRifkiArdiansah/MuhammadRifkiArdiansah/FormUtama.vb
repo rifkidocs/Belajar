@@ -1,6 +1,6 @@
 ﻿Public Class FormUtama
     Private Sub btn1_Click(sender As Object, e As EventArgs) Handles btn1.Click
-        Tugas1_Form1.Show()
+        Tugas1_f1.Show()
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

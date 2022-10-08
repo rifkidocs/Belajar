@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Tugas1_Form1
+Partial Class Tugas1_f1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -105,7 +105,7 @@ Partial Class Tugas1_Form1
         Me.Image1.TabIndex = 2
         Me.Image1.TabStop = False
         '
-        'Tugas1_Form1
+        'Tugas1_f1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -118,8 +118,8 @@ Partial Class Tugas1_Form1
         Me.Controls.Add(Me.Image1)
         Me.Controls.Add(Me.btnSembunyikan)
         Me.Controls.Add(Me.btnTampil)
-        Me.Name = "Tugas1_Form1"
-        Me.Text = "Tugas1_Form1"
+        Me.Name = "Tugas1_f1"
+        Me.Text = "Tugas 1 Form 1"
         CType(Me.Image1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

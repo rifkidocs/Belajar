@@ -103,10 +103,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Tugas1_f1.Designer.vb">
-      <DependentUpon>Tugas1_f1.vb</DependentUpon>
+    <Compile Include="Tugas1_Form1.Designer.vb">
+      <DependentUpon>Tugas1_Form1.vb</DependentUpon>
     </Compile>
-    <Compile Include="Tugas1_f1.vb">
+    <Compile Include="Tugas1_Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Tugas2_1_Form1.Designer.vb">
@@ -126,14 +126,23 @@
     <EmbeddedResource Include="FormUtama.resx">
       <DependentUpon>FormUtama.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Tugas1_Form2.resx">
+      <DependentUpon>Tugas1_Form2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Tugas1_Form1.resx">
+      <DependentUpon>Tugas1_Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Tugas2_1_Form1.resx">
       <DependentUpon>Tugas2_1_Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tugas2_2_Form1.resx">
+      <DependentUpon>Tugas2_2_Form1.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
