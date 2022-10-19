@@ -1,0 +1,17 @@
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\bin\Debug\ReminderRifki.exe.config
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\bin\Debug\ReminderRifki.exe
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\bin\Debug\ReminderRifki.pdb
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\bin\Debug\ReminderRifki.xml
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\bin\Debug\Interop.WMPLib.dll
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\bin\Debug\AxInterop.WMPLib.dll
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\obj\Debug\ReminderRifki.vbproj.AssemblyReference.cache
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\obj\Debug\Interop.WMPLib.dll
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\obj\Debug\AxInterop.WMPLib.dll
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\obj\Debug\ReminderRifki.vbproj.ResolveComReference.cache
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\obj\Debug\ReminderRifki.Form1.resources
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\obj\Debug\ReminderRifki.Resources.resources
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\obj\Debug\ReminderRifki.vbproj.GenerateResource.cache
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\obj\Debug\ReminderRifki.vbproj.CoreCompileInputs.cache
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\obj\Debug\ReminderRifki.exe
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\obj\Debug\ReminderRifki.xml
+F:\1.Kuliah\Belajar\Visual Basic\Reminder\ReminderRifki\ReminderRifki\obj\Debug\ReminderRifki.pdb
