@@ -1,0 +1,15 @@
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi 2\Koperasi 2\Koperasi 2\bin\Debug\Koperasi 2.exe.config
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi 2\Koperasi 2\Koperasi 2\bin\Debug\Koperasi 2.exe
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi 2\Koperasi 2\Koperasi 2\bin\Debug\Koperasi 2.pdb
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi 2\Koperasi 2\Koperasi 2\bin\Debug\Koperasi 2.xml
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi 2\Koperasi 2\Koperasi 2\obj\Debug\Koperasi 2.vbproj.AssemblyReference.cache
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi 2\Koperasi 2\Koperasi 2\obj\Debug\Koperasi_2.Form1.resources
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi 2\Koperasi 2\Koperasi 2\obj\Debug\Koperasi_2.Resources.resources
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi 2\Koperasi 2\Koperasi 2\obj\Debug\Koperasi 2.vbproj.GenerateResource.cache
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi 2\Koperasi 2\Koperasi 2\obj\Debug\Koperasi 2.vbproj.CoreCompileInputs.cache
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi 2\Koperasi 2\Koperasi 2\obj\Debug\Koperasi 2.exe
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi 2\Koperasi 2\Koperasi 2\obj\Debug\Koperasi 2.xml
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi 2\Koperasi 2\Koperasi 2\obj\Debug\Koperasi 2.pdb
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi 2\Koperasi 2\Koperasi 2\obj\Debug\Koperasi_2.Form2.resources
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi 2\Koperasi 2\Koperasi 2\obj\Debug\Koperasi_2.Form3.resources
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi 2\Koperasi 2\Koperasi 2\obj\Debug\Koperasi_2.FormUtama.resources

@@ -6,12 +6,15 @@
 }
 
 body {
-    background: url(bg.jpg) no-repeat center center/cover;
+    background:linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(bg.jpg) no-repeat center center/cover;
     height: 100vh;
-
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#title{
+    text-align: center;
 }
 
 #add-task-container {
@@ -65,6 +68,9 @@ input {
     margin-bottom: 5px;
     display: flex;
     justify-content: space-between;
+
+    animation-name: animatetask;
+    animation-duration: .5s;
 }
 
 .task li {
@@ -106,4 +112,52 @@ input {
 .task .deleteTask:hover{
     background-color: red;
     color: white;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+
+    color: #fff;
+}
+
+@keyframes animatetask {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+    #add-task-container{
+        width: 350px;
+    }
+
+    input{
+        width: 150px;
+        font-size: 0.9rem;
+    }
+
+    .task li{
+        font-size: 0.9rem;
+    }
+
+    .task .checkTask{
+        font-size: 1rem;
+    }
+    .task .deleteTask{
+        font-size: 1rem;
+    }
 }

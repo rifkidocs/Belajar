@@ -1,40 +1,82 @@
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
-    <title>Shell Sort</title>
-    <link rel="stylesheet" href="style.css">
+	<title>Insertion Sort</title>
+	<style type="text/css">
+		body{
+			background-color: #f2f2f2;
+		}
+		.container{
+			width: 500px;
+			height: auto;
+			background-color: #fff;
+			margin: auto;
+			padding: 20px;
+			box-shadow: 0px 0px 10px 0px #000;
+		}
+		.container h1{
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		.container input[type="text"]{
+			width: 100%;
+			height: 30px;
+			border: 1px solid #000;
+			border-radius: 3px;
+			padding-left: 10px;
+		}
+		.container input[type="submit"]{
+			width: 100%;
+			height: 30px;
+			border: 1px solid #000;
+			border-radius: 3px;
+			background-color: #000;
+			color: #fff;
+			cursor: pointer;
+		}
+		.container input[type="submit"]:hover{
+			background-color: #fff;
+			color: #000;
+		}
+		.container p{
+			text-align: center;
+			font-size: 20px;
+		}
+	</style>
 </head>
-
 <body>
-    <div class="container">
-        <span class="header">
-            <h1>Shell Sort</h1>
-        </span>
-        <div class="main-progam">
-            <span class="main-array">
-                <h3>Data Array</h2>
-            </span>
-            <span class="array">0</span>
-            <input type="text" id="txtAngka" class="textbox" placeholder="Masukkan Data Angka">
-            <button class="btn add">ADD</button>
-            <button class="btn reset">RESET</button>
-            <button class="btn sort">SORT</button>
-
-            <div class="display-output">
-                <span>
-                    <h3>Output : </h3>
-                </span>
-                <span class="output">0</span>
-            </div>
-        </div>
-    </div>
+	<div class="container">
+		<h1>Insertion Sort</h1>
+		<form method="post">
+			<input type="text" name="angka" placeholder="Masukkan Angka">
+			<input type="submit" name="submit" value="Submit">
+		</form>
+		<p>
+			<?php
+				if(isset($_POST['submit'])){
+					$angka = $_POST['angka'];
+					$angka = explode(',', $angka);
+					$jumlah = count($angka);
+					for($i=1; $i<$jumlah; $i){
+						$key = $angka[$i];
+						$j = $i-1;
+						while($j>=0 && $angka[$j]>$key){
+							$angka[$j1] = $angka[$j];
+							$j--;
+						}
+						$angka[$j1] = $key;
+					}
+					echo "Hasil Insertion Sort : ";
+					for($i=0; $i<$jumlah; $i){
+						echo $angka[$i]." ";
+					}
+				}
+			?>
+		</p>
+	</div>
+</body>
+</html>
     <script src="shellsort.js"></script>
 </body>
 

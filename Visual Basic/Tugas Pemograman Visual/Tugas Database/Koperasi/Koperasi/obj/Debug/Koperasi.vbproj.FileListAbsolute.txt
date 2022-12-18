@@ -1,0 +1,12 @@
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi\Koperasi\obj\Debug\Koperasi.vbproj.AssemblyReference.cache
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi\Koperasi\obj\Debug\Koperasi.Form1.resources
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi\Koperasi\obj\Debug\Koperasi.Resources.resources
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi\Koperasi\obj\Debug\Koperasi.vbproj.GenerateResource.cache
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi\Koperasi\obj\Debug\Koperasi.vbproj.CoreCompileInputs.cache
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi\Koperasi\bin\Debug\Koperasi.exe.config
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi\Koperasi\bin\Debug\Koperasi.exe
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi\Koperasi\bin\Debug\Koperasi.pdb
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi\Koperasi\bin\Debug\Koperasi.xml
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi\Koperasi\obj\Debug\Koperasi.exe
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi\Koperasi\obj\Debug\Koperasi.xml
+F:\1.Kuliah\Belajar\Visual Basic\Tugas Pemograman Visual\Tugas Database\Koperasi\Koperasi\obj\Debug\Koperasi.pdb
